@@ -2,7 +2,7 @@ import re
 import html
 from collections import defaultdict
 
-INPUT_FILE = "/Users/franza/ibm_rank.txt"
+INPUT_FILE = "./ibm_rank.txt"
 TOP_N = 40
 
 # ------------------------------------------------------------------
