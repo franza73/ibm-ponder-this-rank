@@ -6277,7 +6277,6 @@ September2009 Wu Zheng Kai
 September2009 Joseph DeVincentis
 September2009 Balakrishnan V
 September2009 Ian Soon
-September2009 Jagri Gabor -->
 September2009 Clive Tong
 September2009 Christian Kissig
 September2009 Frank Mullin
@@ -12480,7 +12479,6 @@ August2015 Gregory Giecold
 August2015 Don Dodson
 August2015 Gary M. Gerken
 August2015 John Tromp
-August2015 Kang Jin Cho -->
 August2015 Kang Jin Cho
 August2015 Shirish Chinchalkar
 August2015 Daniel Bitin
@@ -14671,7 +14669,6 @@ February2018 Sasi teja alluri
 February2018 Bora Naveen
 February2018 Kamil Jarosz
 https://research.ibm.com/haifa/ponderthis/challenges/March2018.html
-March2018 Uoti Urpala -->
 March2018 Oleg Vlasii
 March2018 Bert Dobbelaere
 March2018 Alex Fleischer
@@ -14691,7 +14688,6 @@ March2018 Yan-Wu He
 March2018 Pavel Glasnov
 March2018 Francis Golding
 March2018 Joaquim Neves Carrapa
-March2018 Sai Kishore -->
 March2018 Andrei Tsygankov
 March2018 Shuky Dan & Tamir Ganor
 March2018 Walter Sebastian Gisler
@@ -14759,7 +14755,6 @@ March2018 Celine Lee
 March2018 David F. H. Dunkley
 March2018 Radu-Alexandru Todor
 https://research.ibm.com/haifa/ponderthis/challenges/April2018.html
-April2018 Uoti Urpala -->
 April2018 Dan Dima
 April2018 Guillaume Escamocher
 April2018 Dieter Beckerle
@@ -14924,7 +14919,6 @@ April2018 Hugo Pfoertner
 April2018 Buzea Alina
 April2018 Oscar Volpatti
 https://research.ibm.com/haifa/ponderthis/challenges/May2018.html
-May2018 Uoti Urpala -->
 May2018 Bert Dobbelaere
 May2018 Alex Fleischer
 May2018 Arthur Vause
@@ -16051,7 +16045,6 @@ May2019 JJ Rabeyrin
 May2019 Daniel Chong Jyh Tar
 May2019 David F.H. Dunkley
 https://research.ibm.com/haifa/ponderthis/challenges/June2019.html
-June2019 Thomas Huet -->
 June2019 Oleg Vlasii
 June2019 Uoti Urpala
 June2019 Bert Dobbelaere
@@ -16118,7 +16111,6 @@ June2019 Li Li
 June2019 Nyles Heise
 June2019 Oscar Volpatti
 https://research.ibm.com/haifa/ponderthis/challenges/July2019.html
-July2019 Thomas Huet -->
 July2019 Bert Dobbelaere
 July2019 Daniel Chong Jyh Tar
 July2019 Thomas HUET
@@ -16255,7 +16247,6 @@ August2019 Radu-Alexandru Todor
 August2019 Doug Miller
 August2019 Li Li
 https://research.ibm.com/haifa/ponderthis/challenges/September2019.html
-September2019 Thomas Huet -->
 September2019 Alex Fleischer
 September2019 Alper Halbutogullari
 September2019 Gary M. Gerken
@@ -16652,7 +16643,6 @@ January2020 Li Li
 January2020 Oscar Volpatti
 January2020 Radu-Alexandru Todor
 https://research.ibm.com/haifa/ponderthis/challenges/February2020.html
-February2020 Bert Dobbelaere -->
 February2020 Guillermo Wildschut
 February2020 Anders Kaseorg
 February2020 Bert Dobbelaere
@@ -16726,7 +16716,6 @@ February2020 Eden Saig
 February2020 Li Li
 February2020 Florian Fischer
 https://research.ibm.com/haifa/ponderthis/challenges/March2020.html
-March2020 Bert Dobbelaere -->
 March2020 Bert Dobbelaere
 March2020 Guillermo Wildschut
 March2020 George Lasry
@@ -16797,7 +16786,6 @@ March2020 Li Li
 March2020 Clive Tong
 March2020 Radu-Alexandru Todor
 https://research.ibm.com/haifa/ponderthis/challenges/April2020.html
-April2020 Bert Dobbelaere -->
 April2020 Uoti Urpala
 April2020 Alper Halbutogullari
 April2020 JJ Rabeyrin
@@ -16881,7 +16869,6 @@ April2020 Fabio Negroni
 April2020 Alessandro Marzo
 April2020 Reda Kebbaj
 https://research.ibm.com/haifa/ponderthis/challenges/May2020.html
-May2020 Bert Dobbelaere -->
 May2020 Bert Dobbelaere
 May2020 Richard Gosiorovsky
 May2020 Kevin Bauer
@@ -16926,7 +16913,6 @@ May2020 Willem Hendriks
 May2020 Radu-Alexandru Todor
 May2020 Andreas Stiller
 https://research.ibm.com/haifa/ponderthis/challenges/June2020.html
-June2020 Bert Dobbelaere -->
 June2020 Bert Dobbelaere
 June2020 Anders Kaseorg
 June2020 Li Li
@@ -16964,7 +16950,6 @@ June2020 Radu-Alexandru Todor
 June2020 Zhou Hangbo
 June2020 JJ Rabeyrin
 https://research.ibm.com/haifa/ponderthis/challenges/July2020.html
-July2020 Bert Dobbelaere -->
 July2020 Alper Halbutogullari
 July2020 Florian Fischer
 July2020 Oscar Volpatti
@@ -17040,7 +17025,6 @@ July2020 Motty Porat
 July2020 Kai Guttmann
 July2020 Reiner Martin
 https://research.ibm.com/haifa/ponderthis/challenges/August2020.html
-August2020 Bert Dobbelaere -->
 August2020 Uoti Urpala
 August2020 Sean Egan
 August2020 Alper Halbutogullari
@@ -17100,7 +17084,6 @@ August2020 Kang Jin Cho
 August2020 Jörg Schepers
 August2020 Erik Wünstel
 https://research.ibm.com/haifa/ponderthis/challenges/September2020.html
-September2020 Bert Dobbelaere -->
 September2020 Lorenz Reichel
 September2020 Alper Halbutogullari
 September2020 Parth Trivedi
@@ -17181,7 +17164,6 @@ September2020 Vincent Beaud
 September2020 Hu Shuai
 September2020 Jiazhen Tan
 https://research.ibm.com/haifa/ponderthis/challenges/October2020.html
-October2020 Bert Dobbelaere -->
 October2020 Jacob Burnim
 October2020 Eden Saig
 October2020 Alper Halbutogullari
