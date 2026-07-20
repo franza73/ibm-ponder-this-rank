@@ -1,15 +1,15 @@
 # ibm-ponder-this-rank
 
-Updated on 7/15/2026.
+Updated on 7/20/2026.
 
 | Rank | Solver Name | Months Solved |
 |-----:|-------------|--------------:|
 | 1 | Daniel Bitin | 213 |
 | 2 | Dan Dima | 189 |
 | 3 | David Greer | 168 |
-| 4 | Radu Todor | 154 |
+| 4 | Radu Todor | 155 |
 | 5 | Motty Porat | 149 |
-| 6 | Nyles Heise | 137 |
+| 6 | Nyles Heise | 138 |
 | 7 | Clive Tong | 133 |
 | 8 | Harald Bögeholz | 132 |
 | 9 | Daniel Tar | 130 |
@@ -26,10 +26,10 @@ Updated on 7/15/2026.
 | 18 | Chris Shannon | 114 |
 | 18 | Dieter Beckerle | 114 |
 | 22 | Alper Halbutogullari | 111 |
+| 23 | Liubing Yu | 109 |
 | 23 | Stéphane Higueret | 109 |
-| 24 | Liubing Yu | 108 |
-| 25 | Bert Dobbelaere | 107 |
-| 26 | John Tromp | 106 |
+| 25 | Bert Dobbelaere | 108 |
+| 26 | John Tromp | 107 |
 | 27 | Vladimir Volevich | 98 |
 | 28 | Li Li | 96 |
 | 29 | Alex Fleischer | 92 |
