@@ -23373,6 +23373,13 @@ July2026 Justin Mazenauer
 July2026 Reiner Martin
 July2026 Achyuth Jayadevan
 July2026 David Smalling
+July2026 David Greer
+July2026 Michael Schuresko
+July2026 Tongyang Song
+July2026 Alexander Bielik
+July2026 Marco Bellocchi
+July2026 Li Li
+July2026 Kai Guttmann
 https://research.ibm.com/blog/ponder-this-august-2026
 August2026 Daniel Chong Jyh Tar
 August2026 Jean-François Hermant
@@ -23391,3 +23398,52 @@ August2026 Kang Jin Cho
 August2026 Steffen Wolf
 August2026 Rahid Zaman
 August2026 Rethna Pulikkoonattu
+August2026 Carter Tran
+August2026 Nadir S.
+August2026 Lazar Ilic
+August2026 Patricia Ji
+August2026 Guangxi Liu
+August2026 Jackson La Vallee
+August2026 Tamir Ganor & Shouky Dan
+August2026 Siamak Alimirzazadeh
+August2026 Latchezar Christov
+August2026 Franciraldo Cavalcante
+August2026 Giorgos Kalogeropoulos
+August2026 Abhishek Sekar
+August2026 Vladimir Volevich
+August2026 George Jiri Spitalsky
+August2026 Kevin Yu
+August2026 Henk Waßmann
+August2026 Mark Buisseret
+August2026 Amos Guler
+August2026 Evan Semet
+August2026 Dominik Reichl
+August2026 Fakih Karademir
+August2026 Sullivan Hart
+August2026 Baocheng Jiao
+August2026 Aayaam Panigrahi
+August2026 Ahmet Yüksel
+August2026 Sakib
+August2026 Harold Gutch
+August2026 Evert van Dijken
+August2026 Resnina Tathyana
+August2026 Justin Mazenauer
+August2026 John Tromp
+August2026 Peter Moser
+August2026 Paulo Sousa
+August2026 Sven Schneider
+August2026 Daniel Bitin
+August2026 Shirish Chinchalkar
+August2026 Lawrence Hon
+August2026 Lucas Reymond
+August2026 Tongyang Song
+August2026 Pataki Gida
+August2026 Jason Shaw
+August2026 Martin Thorne
+August2026 Peter Ji
+August2026 Hakan Summakoğlu
+August2026 Parth Rana
+August2026 Nickita Khylkouski
+August2026 Karl D’Souza
+August2026 Emek Can Doğru
+August2026 Dieter Beckerle
