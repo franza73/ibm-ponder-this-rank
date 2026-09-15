@@ -23476,6 +23476,10 @@ August2026 Erik Wünstel
 August2026 Alexander Bielik
 August2026 Nyles Heise
 August2026 Karl Mahlburg
+August2026 Lyes Belhoul
+August2026 David Greer
+August2026 Marco Bellocchi
+August2026 Matt Cristina
 https://research.ibm.com/blog/ponder-this-september-2026
 September2026 Paul Lupascu
 September2026 Alper Halbutogullari
@@ -23489,3 +23493,39 @@ September2026 Daniel Bitin
 September2026 Jean-François Hermant
 September2026 Alex Fleischer
 September2026 Dan Ismailescu
+September2026 Lawrence Hon
+September2026 Hoang Vu
+September2026 Rethna Pulikkoonattu
+September2026 Guangxi Liu
+September2026 Michael Vahle
+September2026 Kang Jin Cho
+September2026 Florian Fischer
+September2026 Nickita Khylkouski
+September2026 Franciraldo Cavalcante
+September2026 Henk Waßmann
+September2026 Vladimir Volevich
+September2026 Tamir Ganor & Shouky Dan
+September2026 Ahmet Yüksel
+September2026 Prashant Wankhede
+September2026 Peyo
+September2026 Juergen Koehl
+September2026 Daniel Cahill
+September2026 Puvichakravarthy Ramachandran
+September2026 Siamak
+September2026 Paul Revenant
+September2026 Michele Missiroli
+September2026 Rahid Zaman
+September2026 Björn Richard Nerbe
+September2026 Liubing Yu
+September2026 Ewoud Storm van's Gravesande
+September2026 Emin-Ali CALYAKA
+September2026 Dominik Reichl
+September2026 Micah Day-O'Connell
+September2026 Naren Swaminathan
+September2026 Nicolas Lopez
+September2026 Peter Ji
+September2026 Karl D’Souza
+September2026 Resnina Tathyana
+September2026 John Tromp
+September2026 Devom Brahmbhatt
+September2026 Sanandan Swaminathan
