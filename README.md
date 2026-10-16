@@ -1,12 +1,12 @@
 # ibm-ponder-this-rank
 
-Updated on 10/9/2026.
+Updated on 10/16/2026.`
 
 | Rank | Solver Name | Months Solved |
 |-----:|-------------|--------------:|
 | 1 | Daniel Bitin | 215 |
 | 2 | Dan Dima | 192 |
-| 3 | David Greer | 170 |
+| 3 | David Greer | 171 |
 | 4 | Radu Todor | 156 |
 | 5 | Motty Porat | 152 |
 | 6 | Nyles Heise | 140 |

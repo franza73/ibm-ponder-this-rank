@@ -23569,6 +23569,11 @@ September2026 Marco Bellocchi
 September2026 Radu-Alexandru Todor
 September2026 Lorenz Reichel
 September2026 Nyles Heise
+September2026 Bowen Cheng
+September2026 Arthur Vause
+September2026 Lucas Reymond
+September2026 David Greer
+September2026 Alexander Bielik
 https://research.ibm.com/blog/ponder-this-october-2026
 October2026 Lazar Ilic
 October2026 Kang Jin Cho
