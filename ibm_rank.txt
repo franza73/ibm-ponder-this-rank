@@ -23574,6 +23574,7 @@ September2026 Arthur Vause
 September2026 Lucas Reymond
 September2026 David Greer
 September2026 Alexander Bielik
+September2026 Li Li
 https://research.ibm.com/blog/ponder-this-october-2026
 October2026 Lazar Ilic
 October2026 Kang Jin Cho
@@ -23603,3 +23604,30 @@ October2026 Hakan Summakoğlu
 October2026 Gary M. Gerken
 October2026 Björn Richard Nerbe
 October2026 Michael Vahle
+October2026 Evert van Dijken
+October2026 Florian Fischer
+October2026 Shouky Dan & Tamir Ganor
+October2026 Alok Menghrajani
+October2026 Florian Sikora
+October2026 Andrew Bilinsky
+October2026 Guangxi Liu
+October2026 Jiao Baocheng
+October2026 Lucas Reymond
+October2026 Puvichakravarthy Ramachandran
+October2026 Rudy Prasetya
+October2026 Andreas Knüpfer
+October2026 Jackson La Vallee
+October2026 Emin Ali Calyaka
+October2026 Nyida Gyal
+October2026 Liubing Yu
+October2026 Ahmet Yüksel
+October2026 Daniel Bitin
+October2026 Siamak
+October2026 Abhishek Sekar
+October2026 Carlos Junquero Vila
+October2026 Henk Waßmann
+October2026 R Subramanian
+October2026 Peter Ji
+October2026 Shirish Chinchalkar
+October2026 Gabriel DuPree
+October2026 Matthew Newman

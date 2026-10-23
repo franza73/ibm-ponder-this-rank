@@ -1,10 +1,10 @@
 # ibm-ponder-this-rank
 
-Updated on 10/16/2026.`
+Updated on 10/22/2026.`
 
 | Rank | Solver Name | Months Solved |
 |-----:|-------------|--------------:|
-| 1 | Daniel Bitin | 215 |
+| 1 | Daniel Bitin | 216 |
 | 2 | Dan Dima | 192 |
 | 3 | David Greer | 171 |
 | 4 | Radu Todor | 156 |
@@ -18,22 +18,22 @@ Updated on 10/16/2026.`
 | 12 | Joseph Devincentis | 126 |
 | 13 | Gary Gerken | 124 |
 | 14 | Todd Will | 123 |
-| 15 | Shouky Dan | 117 |
-| 15 | Tamir Ganor | 117 |
+| 15 | Shouky Dan | 118 |
+| 15 | Tamir Ganor | 118 |
 | 17 | Amos Guler | 116 |
 | 17 | Dieter Beckerle | 116 |
 | 17 | Reiner Martin | 116 |
 | 20 | Alper Halbutogullari | 114 |
 | 20 | Andreas Stiller | 114 |
 | 20 | Chris Shannon | 114 |
-| 23 | Liubing Yu | 111 |
-| 23 | Stéphane Higueret | 111 |
+| 23 | Liubing Yu | 112 |
+| 24 | Stéphane Higueret | 111 |
 | 25 | Bert Dobbelaere | 109 |
 | 25 | John Tromp | 109 |
 | 27 | Vladimir Volevich | 100 |
-| 28 | Li Li | 97 |
+| 28 | Li Li | 98 |
 | 29 | Alex Fleischer | 95 |
-| 30 | Shirish Chinchalkar | 94 |
+| 29 | Shirish Chinchalkar | 95 |
 | 31 | Bertram Felgenhauer | 92 |
 | 31 | David Friedman | 92 |
 | 33 | Albert Stadler | 91 |
@@ -43,4 +43,4 @@ Updated on 10/16/2026.`
 | 37 | Latchezar Christov | 86 |
 | 38 | Franciraldo Cavalcante | 85 |
 | 38 | Marco Bellocchi | 85 |
-| 40 | Florian Fischer | 83 |
+| 40 | Florian Fischer | 84 |
