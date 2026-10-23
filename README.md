@@ -1,6 +1,6 @@
 # ibm-ponder-this-rank
 
-Updated on 10/22/2026.`
+Updated on 10/22/2026.
 
 | Rank | Solver Name | Months Solved |
 |-----:|-------------|--------------:|
