@@ -10,100 +10,117 @@ Given a sequence
 (a_0,a_1,\ldots,a_{N-1}),
 \]
 
-one operation removes the first element and replaces the remaining sequence with its partial sums.
+one operation removes the first element and replaces the remaining sequence with its partial sums:
 
-We repeat until one element remains.
+\[
+(a_1,\ a_1+a_2,\ a_1+a_2+a_3,\ \ldots,\ \sum_{j=1}^{N-1}a_j).
+\]
+
+Repeat until one element remains.
 
 The original first element \(a_0\) never contributes to the result.
 
 ### 1.2. Deriving the coefficients
 
-Let \(d_{n,k}\) be the coefficient of \(a_{n-1-k}\) in the SumSum of a sequence of length \(n\).
+Let \(d_{n,k}\) be the coefficient of \(a_{n-1-k}\) in the final SumSum value for a sequence of length \(n\). The index \(k=0\) therefore refers to the last input element.
 
-The initial condition is:
+For \(n=2\), the result is just \(a_1\), so
 
 \[
 d_{2,0}=1.
 \]
 
-The transformation gives the recurrence:
+After one transformation, each new element is a prefix sum of the old sequence. Tracking how often each old element contributes gives the recurrence
 
 \[
-d_{n,k}=
-\sum_{\ell=0}^{\min(k,n-3)}d_{n-1,\ell}.
+d_{n,k}=\sum_{\ell=0}^{\min(k,n-3)}d_{n-1,\ell}.
 \]
 
-Using the hockey-stick identity, we obtain:
+Applying the hockey-stick identity to this prefix sum gives
 
 \[
 \boxed{
-d_{n,k}=
+d_{n,k}
+=
 \binom{n+k-2}{k}
 -
 \binom{n+k-2}{k-1}
 }
 \]
 
-where \(\binom nk=0\) when \(k<0\).
+where a binomial coefficient is zero when its lower argument is negative.
 
-Therefore:
+The final value for an input of length \(N\) is consequently
 
 \[
 \boxed{
-S_N=
-\sum_{k=0}^{N-2}
-d_{N,k}a_{N-1-k}
+S_N=\sum_{k=0}^{N-2}d_{N,k}a_{N-1-k}
 }
 \]
 
-This reduces the problem from explicitly constructing \(N-1\) sequences to calculating a single weighted sum.
+This replaces the repeated sequence transformations with one weighted sum.
 
-### 1.3. Calculate coefficients in constant time
+For example, the coefficients in input order for \(N=6\) are
 
-Define:
+\[
+(14,\ 14,\ 9,\ 4,\ 1).
+\]
+
+Thus,
+
+\[
+S_6=14a_1+14a_2+9a_3+4a_4+a_5.
+\]
+
+### 1.3. Calculating all coefficients in \(O(N)\)
+
+Define
 
 \[
 B_k=\binom{N+k-2}{k}.
 \]
 
-Then:
+Then
 
 \[
 B_0=1
 \]
 
-and:
+and the standard binomial recurrence gives
 
 \[
 B_{k+1}=B_k\frac{N+k-1}{k+1}.
 \]
 
-Furthermore:
+Also,
 
 \[
 \frac{\binom{N+k-2}{k-1}}{\binom{N+k-2}{k}}
-=\frac{k}{N-1}.
+=
+\frac{k}{N-1}.
 \]
 
-Consequently:
+Substituting this ratio into the coefficient formula,
 
 \[
-\boxed{
-d_{N,k}=B_k\frac{N-1-k}{N-1}
-}
+\begin{aligned}
+d_{N,k}
+&=B_k-\frac{k}{N-1}B_k\\
+&=\boxed{B_k\frac{N-1-k}{N-1}}.
+\end{aligned}
 \]
 
-When working modulo a prime \(p>N\), all required denominators have modular inverses.
+When computing modulo a prime \(p>N\), every denominator used here is nonzero modulo \(p\), so it has a modular inverse.
 
-Thus, we can calculate every coefficient in constant time, giving an \(O(N)\) algorithm.
+We can update \(B_k\) and calculate each coefficient in constant time. The complete weighted sum therefore takes \(O(N)\) time.
 
 ---
 
 ## 2. Implementation of Solution 1: General \(O(N)\)
 
-This implementation accepts an arbitrary sequence and calculates its SumSum modulo a prime \(p\).
+This implementation accepts an arbitrary sequence and calculates its SumSum value modulo a prime \(p\).
 
-**Assumptions:**
+Assumptions:
 
 - \(p\) is prime.
 - \(2\leq N<p\).
@@ -137,7 +154,6 @@ def sumsum_mod(a, p):
     ans = 0
 
     for k in range(n - 1):
-
         # d[n,k] = B_k * (n - 1 - k) / (n - 1)
         d = B * (n - 1 - k) % p
         d = d * inv_n_minus_1 % p
@@ -153,7 +169,7 @@ def sumsum_mod(a, p):
     return ans
 ```
 
-**Complexity:**
+Complexity:
 
 | Resource | Complexity |
 |---|---:|
@@ -166,15 +182,15 @@ This is the general solution. It works for arbitrary sequence elements, not just
 
 ## 3. Implementation of Solution 2: Lucas theorem optimization
 
-Now consider the special case:
+Now consider the special case
 
 \[
-N=p-r
+N=p-r,
 \]
 
-where \(r\) is small compared with \(p\).
+where \(p\) is prime and \(r\) is small compared with \(p\).
 
-Suppose:
+Assume the input sequence is geometric:
 
 \[
 a_i=b^i.
@@ -185,24 +201,24 @@ a_i=b^i.
 Recall the coefficient formula:
 
 \[
-d_{N,k}=
+d_{N,k}
+=
 \binom{N+k-2}{k}
 -
 \binom{N+k-2}{k-1}.
 \]
 
-Substituting \(N=p-r\):
+Substitute \(N=p-r\):
 
 \[
-d_{N,k}=
+d_{N,k}
+=
 \binom{p-r+k-2}{k}
 -
 \binom{p-r+k-2}{k-1}.
 \]
 
-For \(k\geq r+2\), both binomial coefficients are zero modulo \(p\), by Lucas's theorem.
-
-Therefore:
+For \(k\geq r+2\), both binomial coefficients are zero modulo \(p\), by Lucas's theorem. Therefore only the terms \(k=0,\ldots,r+1\) can contribute:
 
 \[
 \boxed{
@@ -212,11 +228,11 @@ S_N\equiv
 }
 \]
 
-Only \(r+2\) terms survive!
+Only \(r+2\) terms survive.
 
-### 3.2. Simplify the coefficients
+### 3.2. Simplify the remaining coefficients
 
-For the remaining terms, use:
+For \(1\leq m\leq p\) and nonnegative \(s\) in the applicable range,
 
 \[
 \binom{p-m}{s}
@@ -225,11 +241,30 @@ For the remaining terms, use:
 \pmod p.
 \]
 
-This gives:
+For the first binomial coefficient, take \(m=r+2-k\) and \(s=k\):
+
+\[
+\binom{p-r+k-2}{k}
+\equiv
+(-1)^k\binom{r+1}{k}
+\pmod p.
+\]
+
+For the second, take \(s=k-1\):
+
+\[
+\binom{p-r+k-2}{k-1}
+\equiv
+(-1)^{k-1}\binom{r}{k-1}
+\pmod p.
+\]
+
+Subtracting the two expressions gives
 
 \[
 \boxed{
-d_{N,k}\equiv
+d_{N,k}
+\equiv
 (-1)^k
 \left[
 \binom{r+1}{k}+\binom{r}{k-1}
@@ -238,7 +273,9 @@ d_{N,k}\equiv
 }
 \]
 
-Hence the final formula is:
+where \(\binom{r}{-1}=0\).
+
+For a geometric input sequence, the resulting formula is
 
 \[
 \boxed{
@@ -253,7 +290,7 @@ b^{N-1-k}
 }
 \]
 
-We have reduced an \(O(N)\) calculation to \(O(r)\) terms.
+The calculation now uses \(O(r)\) terms rather than \(O(N)\).
 
 ### 3.3. Python implementation
 
@@ -273,12 +310,10 @@ def sumsum_power_near_prime(N, p, b=13):
     ans = 0
 
     for k in range(r + 2):
-
         c1 = comb(r + 1, k)
         c2 = comb(r, k - 1) if k > 0 else 0
 
         coefficient = (-1) ** k * (c1 + c2)
-
         term = pow(b, N - 1 - k, p)
 
         ans = (ans + coefficient * term) % p
@@ -286,34 +321,26 @@ def sumsum_power_near_prime(N, p, b=13):
     return ans
 ```
 
-**Complexity:**
+Complexity:
 
-- \(O(r\log p)\) modular arithmetic operations.
-- \(O(1)\) auxiliary space, excluding the small binomial calculations.
+- \(O(r\log p)\) modular arithmetic operations, using modular exponentiation for each term.
+- \(O(1)\) auxiliary space, excluding the small integer binomial calculations.
 
-### 3.4. Apply to the example
+### 3.4. Apply it to an example
 
-Given:
-
-\[
-N=10^{11}
-\]
+Given
 
 \[
-p=10^{11}+3
+N=10^{11},\qquad p=10^{11}+3,\qquad a_i=13^i,
 \]
 
-\[
-a_i=13^i
-\]
-
-We have:
+we have
 
 \[
 r=p-N=3.
 \]
 
-The coefficients are:
+The coefficients for \(k=0,\ldots,4\) are:
 
 | \(k\) | Coefficient |
 |---:|---:|
@@ -323,29 +350,32 @@ The coefficients are:
 | 3 | -7 |
 | 4 | 2 |
 
-Therefore:
+Therefore,
 
 \[
-S_N\equiv
-13^{p-4}-5\cdot13^{p-5}
-+9\cdot13^{p-6}
--7\cdot13^{p-7}
+\begin{aligned}
+S_N\equiv{}&
+13^{p-4}
+-5\cdot13^{p-5}
++9\cdot13^{p-6}\\
+&-7\cdot13^{p-7}
 +2\cdot13^{p-8}
 \pmod p.
+\end{aligned}
 \]
 
-Factoring:
+Factor out \(13^{p-8}\):
 
 \[
 S_N\equiv
 13^{p-8}
-(13^4-5\cdot13^3+9\cdot13^2-7\cdot13+2)
+\left(
+13^4-5\cdot13^3+9\cdot13^2-7\cdot13+2
+\right)
 \pmod p.
 \]
 
-The polynomial evaluates to \(19008\).
-
-Thus:
+The polynomial evaluates to \(19008\), so
 
 \[
 \boxed{
@@ -376,11 +406,11 @@ Output:
 
 | Property | Solution 1 | Solution 2 |
 |---|---|---|
-| Input sequence | Arbitrary | \(a_i=b^i\) |
-| Requirement | Prime \(p>N\) | Prime \(p\), small \(r=p-N\) |
+| Input sequence | Arbitrary | Geometric: \(a_i=b^i\) |
+| Modulus | Prime \(p>N\) | Prime \(p\), with small \(r=p-N\) |
 | Time | \(O(N)\) | \(O(r\log p)\) |
-| Space | \(O(N)\) | \(O(1)\) |
+| Auxiliary space | \(O(N)\) | \(O(1)\) |
 | Main technique | Binomial coefficient recurrence | Lucas's theorem |
 | Suitable for \(N=10^{11}\)? | No | Yes, if \(r\) is small |
 
-**Main takeaway:** First derive the coefficients of the SumSum transformation. Then choose the appropriate computational strategy. The coefficient formula is general; Lucas's theorem provides an additional optimization when the sequence length is close to the prime modulus.
+**Main takeaway:** First derive the coefficients of the SumSum transformation. The general coefficient formula gives an \(O(N)\) algorithm for arbitrary inputs. When \(N\) is close to the prime modulus and the input is geometric, Lucas's theorem reduces the calculation to only \(r+2\) terms.
