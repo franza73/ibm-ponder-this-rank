@@ -23650,6 +23650,10 @@ October2026 Patricia Ji
 October2026 Motty Porat
 October2026 Reiner Martin
 October2026 David F.H. Dunkley
+October2026 David Greer
+October2026 Erik Wünstel
+October2026 Nyles Heise
+October2026 Evan Semet
 https://research.ibm.com/blog/ponder-this-november-2026
 November2026 Daniel Chong Jyh Tar
 November2026 Lazar Ilic
@@ -23669,3 +23673,32 @@ November2026 Björn Richard Nerbe
 November2026 Juergen Koehl
 November2026 Kang Jin Cho
 November2026 Lucas Reymond
+November2026 Abraham AJ Arshad
+November2026 Matthew Newman
+November2026 Andrew Bilinsky
+November2026 Devom Brahmbhatt
+November2026 Martin Thorne
+November2026 Alex Fleischer
+November2026 Abhishek Sekar
+November2026 Patricia Ji
+November2026 George Jiri Spitalsky
+November2026 Natanael Wildner
+November2026 Michael Vahle
+November2026 Franciraldo Cavalcante
+November2026 Xinyang Jiang
+November2026 Dieter Beckerle
+November2026 Aditya Bhoj
+November2026 Rethna Pulikkoonattu
+November2026 Blaine Hill
+November2026 Puvichakravarthy Ramachandran
+November2026 Dan Dima
+November2026 Loukas Sidiropoulos
+November2026 Siamak Alimirzazadeh
+November2026 Evan Semet
+November2026 Peyo
+November2026 Bruce Wen
+November2026 Dan Ismailescu
+November2026 Karl D’Souza
+November2026 Latchezar Christov
+November2026 Bogdan Lataianu
+November2026 Bert Dobbelaere
