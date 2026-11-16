@@ -23654,6 +23654,11 @@ October2026 David Greer
 October2026 Erik Wünstel
 October2026 Nyles Heise
 October2026 Evan Semet
+October2026 Alexander Bielik
+October2026 Sanandan Swaminathan
+October2026 Li Li
+October2026 Marco Bellocchi
+October2026 Resnina Tathyana
 https://research.ibm.com/blog/ponder-this-november-2026
 November2026 Daniel Chong Jyh Tar
 November2026 Lazar Ilic
@@ -23702,3 +23707,18 @@ November2026 Karl D’Souza
 November2026 Latchezar Christov
 November2026 Bogdan Lataianu
 November2026 Bert Dobbelaere
+November2026 Michele Missiroli
+November2026 Aslan Buluthan Gökbulut
+November2026 Liubing Yu
+November2026 Daniel Bitin
+November2026 Shouky Dan & Tamir Ganor
+November2026 Hansraj Nahata
+November2026 Anant Chebiam
+November2026 Vladimir Volevich
+November2026 Sujal Singh
+November2026 Radu-Alexandru Todor
+November2026 Hakan Summakoğlu
+November2026 Dominik Reichl
+November2026 Cole Von Cole
+November2026 Shirish Chinchalkar
+November2026 Gary M. Gerken
